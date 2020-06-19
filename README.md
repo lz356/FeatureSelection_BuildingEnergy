@@ -17,7 +17,7 @@ Create a new conda environment:
 
 Make sure you are using the latest version of pip:
 
-> $ pip install --upgrade pip
+`< $ pip install --upgrade pip>`
 
 Install the environment needed for this repository:
 
