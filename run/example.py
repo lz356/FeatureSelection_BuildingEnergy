@@ -1,8 +1,6 @@
 #author:LiangZhang@NREL
 import pandas as pd
-#import fsbe.base.hybrid_feature_selection_with_filter_and_wrapper as hfswfw
 import fsbe.base as fsbe
-
 
 # Example Run
 inputs_output_example = pd.read_csv('../data/example_data.csv')
