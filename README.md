@@ -10,6 +10,7 @@ Download and install the latest version of [Conda](https://docs.conda.io/en/late
 Create a new conda environment:
 
 > $ conda create -n <name-of-repository> python=3.6 pip
+
 > $ conda activate <name-of-repository>
 
 (If you’re using a version of conda older than 4.4, you may need to instead use source activate <name-of-repository>.)
