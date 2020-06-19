@@ -1,10 +1,12 @@
 # FeatureSelection_BuildingEnergy
-Hybrid feature selection method for building energy forecasting described in https://www.sciencedirect.com/science/article/pii/S0378778818321625
+Author: Liang Zhang@National Renewable Energy Laboratory
+
+Hybrid feature selection method for building energy forecasting described [here](https://www.sciencedirect.com/science/article/pii/S0378778818321625)
 
 This project is a work-in-progress.
 
 Installation
-Download and install the latest version of [Conda](http://github.com) (version 4.4 or above)
+Download and install the latest version of [Conda](https://docs.conda.io/en/latest/) (version 4.4 or above)
 Create a new conda environment:
 
 > $ conda create -n <name-of-repository> python=3.6 pip
