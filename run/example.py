@@ -1,13 +1,15 @@
 #author:LiangZhang@NREL
 import pandas as pd
-import fsbe.base.hybrid_feature_selection_with_filter_and_wrapper as hfswfw
+#import fsbe.base.hybrid_feature_selection_with_filter_and_wrapper as hfswfw
+import fsbe.base as fsbe
+
 
 # Example Run
 inputs_output_example = pd.read_csv('../data/example_data.csv')
 inputs_example = inputs_output_example.iloc[:, 0:-1]
 output_example = inputs_output_example.iloc[:, -1]
 
-selected_inputs_dataframe = hfswfw(
+selected_inputs_dataframe = fsbe.hybrid_feature_selection_with_filter_and_wrapper(
     inputs = inputs_example,
     output = output_example,
     exemption_variable_list = ['feature_9_exemption'],
